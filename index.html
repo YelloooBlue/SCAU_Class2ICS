@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 宽度自适应 -->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+
+    <title>课表转换</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 2%;
+        }
+
+    </style>
+</head>
+<body>
+<p id="info"></p>
+<form style="height: 100%" id="form1" action="transfer.php" method="post">
+    <div style="height:100%;text-align:center;vertical-align:middle;">
+    <h3>课表数据:</h3>
+    <textarea style="width: 90%;height: 50%;position:relative;" name="data"></textarea>
+        <br><br>
+    <h3>学期开始时间戳（ms）:</h3>
+    <input style="width: 40%;height: 3em" type="text" name="startTime">
+        <br><br>
+    <input style="width: 40%;height: 5em" type="submit" value="提交">
+    </div>
+</form>
+</body>
+
+</html>
