@@ -38,7 +38,7 @@ ICS文件很好用，转他！
 
 获取请求成功，我们只需要如下两个请求的Respond：
 
-<img src="D:\PhpstormProjects\SCAU_JSON2ICS\README.assets\image-20211021190202192.png" alt="image-20211021190202192" style="zoom:67%;" />
+<img src=".\README.assets\image-20211021190202192.png" alt="image-20211021190202192" style="zoom:67%;" />
 
 
 
@@ -52,7 +52,7 @@ ICS文件很好用，转他！
 
    *注：jxzllist中可获取到过去多个学期的开学时间，一般当前学期为第0个，具体学期参照 `xnxq`字段*
 
-<img src="D:\PhpstormProjects\SCAU_JSON2ICS\README.assets\image-20211021161734922.png" alt="image-20211021161734922" style="zoom:80%;" />
+<img src=".\README.assets\image-20211021161734922.png" alt="image-20211021161734922" style="zoom:80%;" />
 
 
 
@@ -60,7 +60,7 @@ ICS文件很好用，转他！
 
 直接复制学期日历请求（searchOneXskbList）中的***原始 JSON***
 
-*以火狐浏览器为例，打开原始JSON的按钮即可![image-20211021190242411](D:\PhpstormProjects\SCAU_JSON2ICS\README.assets\image-20211021190242411.png)*
+*以火狐浏览器为例，打开原始JSON的按钮即可![image-20211021190242411](.\README.assets\image-20211021190242411.png)*
 
 
 
@@ -68,13 +68,13 @@ ICS文件很好用，转他！
 
 输入刚刚获取到的信息即可
 
-<img src="D:\PhpstormProjects\SCAU_JSON2ICS\README.assets\image-20211021190335208.png" alt="image-20211021190335208" style="zoom:67%;" />
+<img src=".\README.assets\image-20211021190335208.png" alt="image-20211021190335208" style="zoom:67%;" />
 
 ### 第六步，生成ICS文件
 
 核对课表，获得结果
 
-<img src="D:\PhpstormProjects\SCAU_JSON2ICS\README.assets\image-20211021190301111.png" alt="image-20211021190301111" style="zoom:67%;" />
+<img src=".\README.assets\image-20211021190301111.png" alt="image-20211021190301111" style="zoom:67%;" />
 
 复制转换结果到记事本等编辑器，保存为`*.ics`后缀即可获得ICS文件
 
